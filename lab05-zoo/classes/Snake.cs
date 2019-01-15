@@ -4,7 +4,15 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Snake
+    class Snake: Reptile
     {
+        public override void Move()
+        {
+            Console.WriteLine("Move in Snake class");
+        }
+        public override void Speak()
+        {
+            Console.WriteLine("Speak in Snake class");
+        }
     }
 }

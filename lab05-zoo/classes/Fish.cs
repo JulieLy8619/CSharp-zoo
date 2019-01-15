@@ -4,7 +4,9 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Fish
+    abstract class Fish : ColdBlooded
     {
+        public virtual bool OnlyLiveInWater { get; set; }
+        public override bool SelfTempReg { get; set; } = false;
     }
 }

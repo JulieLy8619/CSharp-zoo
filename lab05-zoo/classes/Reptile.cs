@@ -4,7 +4,9 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Reptile
+    abstract class Reptile : ColdBlooded
     {
+        public virtual bool threeChamHeart { get; set; }
+        public override bool SelfTempReg { get; set; } = false;
     }
 }

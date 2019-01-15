@@ -4,7 +4,8 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Salmon
+    public class Salmon
     {
+        public int NumOfBabies { get; set; }
     }
 }

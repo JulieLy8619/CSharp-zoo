@@ -4,7 +4,8 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class ColdBlooded
+    abstract class ColdBlooded
     {
+        public abstract bool SelfTempReg { get; set; }
     }
 }

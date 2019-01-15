@@ -1,8 +1,9 @@
 ﻿using System;
+//will need to add namespace of the classes
 
 namespace lab05_zoo
 {
-    class Program
+    public class Program //so can test
     {
         static void Main(string[] args)
         {
@@ -10,3 +11,6 @@ namespace lab05_zoo
         }
     }
 }
+
+
+//reminder to self when get to added classes, right click on folder and add a class, change the name at the bottom

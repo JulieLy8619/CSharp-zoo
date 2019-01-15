@@ -4,7 +4,8 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Goldfish
+    abstract class Goldfish : Fish
     {
+        public bool Shiney { get; set; }
     }
 }

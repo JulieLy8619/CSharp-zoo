@@ -4,7 +4,12 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class WarmBlooded
+    abstract class WarmBlooded : Vertebrates
     {
+        public virtual int NumLegs { get; set; }
+        public virtual void Sleep()
+        {
+            Console.WriteLine("Virtual Sleep method in WarmBlood Class");
+        }
     }
 }

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Bird
+    abstract class Bird
     {
+        public abstract bool HasFeathers { get; set; }
     }
 }

@@ -51,6 +51,9 @@ branch. Pull requests are warmly welcome.
 ### Encapsulation is access control. It can prevent another class from accessing/manipulating that class's data.
 #### In my diagram/example, one could see this principle in that all are public, like BrownBear and Goldfish. (mostly because for this assignment they are needed to be public. It is possible we could have added protected to a base class) 
 
+## Interface
+### Interface is a thing that can be done
+### In my diagram/example, one could see this in Turtle, Peacock and Goldfish
 
 
 

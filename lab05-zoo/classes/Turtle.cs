@@ -8,7 +8,7 @@ namespace lab05_zoo.classes
     public class Turtle : Reptile , IPlay
     {
         public bool HasShell { get; set; }
-        int IPlay.PlayThings { get; set; } = 100;
+        //int IPlay.PlayThings { get; set; } = 100; //why wouldn't this work and let me test it
         public override void Move()
         {
             Console.WriteLine("Move in Turtle class");
@@ -17,9 +17,10 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Speak in Turtle class");
         }
-        public void Play()
+        public int Play()
         {
             Console.WriteLine("Play from IPlay in Turtle");
+            return 100;
         }
     }
 }

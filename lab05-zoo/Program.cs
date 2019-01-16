@@ -33,6 +33,8 @@ namespace lab05_zoo
             Console.WriteLine("Turtle HasShell: ");
             Molly.HasShell = true;
             Console.WriteLine(Molly.HasShell);
+            Console.WriteLine("Turtle interface Play: ");
+            Console.WriteLine(Molly.Play());
 
             Console.WriteLine("Snake HasSpine");
             Kathy.HasSpine = true;

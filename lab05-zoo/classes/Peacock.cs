@@ -10,8 +10,8 @@ namespace lab05_zoo.classes
         public override bool HasFeathers { get; set; } = true;
         public override int NumLegs { get; set; } = 2;
         public string MainColorOfTail { get; set; }
-        string ISpeak.SpeakThings { get; set; } = "ISpeak SpeakThings in Peacock";
-        int IPlay.PlayThings { get; set; } = 10;
+        //string ISpeak.SpeakThings { get; set; } = "ISpeak SpeakThings in Peacock";
+        //int IPlay.PlayThings { get; set; } = 10;
 
         public override void Move()
         {
@@ -25,13 +25,15 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Sleep in peacock class");
         }
-        public void Play()
+        public int Play()
         {
             Console.WriteLine("Play from IPlay in Peacock");
+            return 10;
         }
-        public void SpeakInterface()
+        public string SpeakInterface()
         {
             Console.WriteLine("Speak from ISpeak in Peacock");
+            return "Hello from SpeakInterface ISpeak Peacock";
         }
 
     }

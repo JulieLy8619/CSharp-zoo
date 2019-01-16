@@ -8,7 +8,7 @@ namespace lab05_zoo.classes
     public class Goldfish : Fish , IPlay
     {
         public bool Shiney { get; set; }
-        int IPlay.PlayThings { get; set; } = 1000;
+        //int IPlay.PlayThings { get; set; } = 1000;
         public override void Move()
         {
             Console.WriteLine("Move in goldfish class");
@@ -18,9 +18,10 @@ namespace lab05_zoo.classes
             Console.WriteLine("Speak in goldfish class");
         }
 
-        public void Play()
+        public int Play()
         {
             Console.WriteLine("Play from IPlay in Goldfish");
+            return 1000;
         }
 
     }

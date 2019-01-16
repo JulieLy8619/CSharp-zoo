@@ -6,7 +6,7 @@ namespace lab05_zoo.Interfaces
 {
     public interface ISpeak
     {
-        string SpeakThings { get; set; }
-        void SpeakInterface();
+        //string SpeakThings { get; set; }
+        string SpeakInterface();
     }
 }

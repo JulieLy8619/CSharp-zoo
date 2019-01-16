@@ -1,5 +1,6 @@
 ﻿using System;
 using lab05_zoo.classes;
+using lab05_zoo.Interfaces;
 
 //will need to add namespace of the classes
 
@@ -21,6 +22,10 @@ namespace lab05_zoo
 
             Console.WriteLine("Peacock Sleeps: ");
             Jane.Sleep();
+            Console.WriteLine("Peacock interface Play: ");
+            Console.WriteLine(Jane.Play());
+            Console.WriteLine("Peacock interface Speak: ");
+            Console.WriteLine(Jane.SpeakInterface());
 
             Console.WriteLine("Goldfish Moves: ");
             Bill.Move();
@@ -32,6 +37,8 @@ namespace lab05_zoo
             Console.WriteLine("Turtle HasShell: ");
             Molly.HasShell = true;
             Console.WriteLine(Molly.HasShell);
+            Console.WriteLine("Turtle interface Play: ");
+            Console.WriteLine(Molly.Play());
 
             Console.WriteLine("Snake HasSpine");
             Kathy.HasSpine = true;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    abstract class WarmBlooded : Vertebrates
+    public abstract class WarmBlooded : Vertebrates
     {
         public virtual int NumLegs { get; set; }
         public virtual void Sleep()

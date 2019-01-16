@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Goldfish : Fish
+    public class Goldfish : Fish
     {
         public bool Shiney { get; set; }
         public override void Move()

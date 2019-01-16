@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Peacock : Bird
+    public class Peacock : Bird
     {
         public override bool HasFeathers { get; set; } = true;
         public override int NumLegs { get; set; } = 2;

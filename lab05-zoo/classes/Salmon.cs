@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Salmon : Fish
+    public class Salmon : Fish
     {
         public int NumOfBabies { get; set; }
         public override void Move()

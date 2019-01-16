@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Turtle : Reptile
+    public class Turtle : Reptile
     {
         public bool HasShell { get; set; }
         public override void Move()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    abstract class Vertebrates
+    public abstract class Vertebrates
     {
         public virtual bool HasSpine { get; set; }
         public abstract void Speak();

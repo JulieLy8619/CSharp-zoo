@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    class Snake: Reptile
+    public class Snake: Reptile
     {
         public override void Move()
         {

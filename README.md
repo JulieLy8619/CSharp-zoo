@@ -16,10 +16,10 @@ My classes are based on this diagram
 ![zooChart](./images/zooChart.pdf)
 
 This is what the program would look like
-![]()
+![programWorks](./images/lab5proofOfLife.JPG)
 
 Proof passed tests
-![]()
+![passedTests](./images/lab5testsWork.JPG)
 
 ## Contribution
 

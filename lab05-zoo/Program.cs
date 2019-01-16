@@ -1,5 +1,6 @@
 ﻿using System;
 using lab05_zoo.classes;
+using lab05_zoo.Interfaces;
 
 //will need to add namespace of the classes
 

@@ -6,6 +6,7 @@ namespace lab05_zoo.classes
 {
     class Turtle : Reptile
     {
+        public bool HasShell { get; set; }
         public override void Move()
         {
             Console.WriteLine("Move in Turtle class");

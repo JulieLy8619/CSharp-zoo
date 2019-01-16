@@ -14,6 +14,8 @@ We were asked to meet the following requirements:
 
 My classes are based on this diagram
 ![zooChart](./images/zooChart.pdf)
+Diagram with Interfaces
+![zooChartWithInterfaces](./images/zooChartWInterfaces.pdf)
 
 This is what the program would look like
 ![programWorks](./images/lab5proofOfLife.JPG)
@@ -52,8 +54,7 @@ branch. Pull requests are warmly welcome.
 #### In my diagram/example, one could see this principle in that all are public, like BrownBear and Goldfish. (mostly because for this assignment they are needed to be public. It is possible we could have added protected to a base class) 
 
 ## Interface
-### Interface is a thing that can be done
-### In my diagram/example, one could see this in Turtle, Peacock and Goldfish
-
+### Interface is an action that can be done by multiple classes.
+### In my diagram/example, one could see this in Turtle, Peacock and Goldfish, all play (from interface IPlay). Technically I could have all my classes play. I also added in one other interface, ISpeak, which only Peacock can speakInterface
 
 

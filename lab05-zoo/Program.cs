@@ -22,6 +22,10 @@ namespace lab05_zoo
 
             Console.WriteLine("Peacock Sleeps: ");
             Jane.Sleep();
+            Console.WriteLine("Peacock interface Play: ");
+            Console.WriteLine(Jane.Play());
+            Console.WriteLine("Peacock interface Speak: ");
+            Console.WriteLine(Jane.SpeakInterface());
 
             Console.WriteLine("Goldfish Moves: ");
             Bill.Move();

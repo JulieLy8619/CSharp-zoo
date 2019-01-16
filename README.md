@@ -18,8 +18,15 @@ My classes are based on this diagram
 This is what the program would look like
 ![programWorks](./images/lab5proofOfLife.JPG)
 
-Proof passed tests
+This is what the program would look like with interfaces
+![programWorks](./images/lab6proofOfLife.JPG)
+
+Proof passed tests-lab 5
 ![passedTests](./images/lab5testsWork.JPG)
+
+Proof passed tests-lab 6
+![passedTests](./images/lab6testsWork.JPG)
+
 
 ## Contribution
 

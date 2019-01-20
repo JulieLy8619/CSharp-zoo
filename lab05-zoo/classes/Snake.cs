@@ -7,9 +7,10 @@ namespace lab05_zoo.classes
     public class Snake : Reptile
     {
         public string Color { get; set; }
-        public override void Move()
+        public override int Move()
         {
             Console.WriteLine("Move in Snake class");
+            return 5;
         }
         public override int Speak()
         {

@@ -8,6 +8,6 @@ namespace lab05_zoo.classes
     {
         public virtual bool HasSpine { get; set; } = true;
         public abstract int Speak();
-        public abstract void Move();
+        public abstract int Move();
     }
 }

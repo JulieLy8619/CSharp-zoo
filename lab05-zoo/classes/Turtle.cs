@@ -9,9 +9,10 @@ namespace lab05_zoo.classes
     {
         public bool HasShell { get; set; }
         //int IPlay.PlayThings { get; set; } = 100; //why wouldn't this work and let me test it
-        public override void Move()
+        public override int Move()
         {
             Console.WriteLine("Move in Turtle class");
+            return 6;
         }
         public override int Speak()
         {

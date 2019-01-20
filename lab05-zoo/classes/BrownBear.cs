@@ -8,9 +8,10 @@ namespace lab05_zoo.classes
     {
         public override string FurColor { get; set; } = "brown";
         public override int NumLegs { get; set; } = 4;
-        public override void Move()
+        public override int Move()
         {
             Console.WriteLine("Move in brownbear class");
+            return 1;
         }
         public override int Speak()
         {

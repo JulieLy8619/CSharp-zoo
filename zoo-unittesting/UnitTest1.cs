@@ -164,12 +164,34 @@ namespace lab05_zoo_unittesting
 
         //methods have been overwritten
         [Fact]
-        public void Testoverridden()
+        public void TestOverridden()
         {
             Peacock Jane = new Peacock();
             BrownBear BoBo = new BrownBear();
 
             Assert.NotEqual(BoBo.Speak(), Jane.Speak());
+        }
+
+        //prove a concrete animal is an Animal, I decided I needed 3 tests to do this. Vertebrate (aka your Animal, because I assumed you just meant top of the tree) and verified each of the stuff in the base (hasSpine, Speak, and Move.)
+        [Fact]
+        public void TestIsAnAnimal1()
+        {
+            Peacock Jane = new Peacock();
+
+            Assert.True(Jane.HasSpine); //shouldn't have gotten overridden per my chart
+        }
+        [Fact]
+        public void TestIsAnAnimal2()
+        {
+            Peacock Jane = new Peacock();
+
+            Assert.Equal(1,Jane.Speak()); 
+        }
+        [Fact]
+        public void TestIsAnAnimal3()
+        {
+            Peacock Jane = new Peacock();
+            Assert.Equal(3, Jane.Move());
         }
     }
 }
@@ -179,5 +201,5 @@ namespace lab05_zoo_unittesting
 //Prove that the classes that implement the interface actually implement it
 //Prove inheritance
 //Prove Polymorphism
-//Prove methods have been overridden, all of my methods were VOIDs....thats why I didn't test it before....fixed
-//Prove that one of your concrete animals is an Animal, how!?! can't instantiate and "animal"
+//Prove methods have been overridden, all of my methods were VOIDs....thats why I didn't test it before....fixed (unhappily oblidged, but done ;P )
+//Prove that one of your concrete animals is an Animal, how!?! can't instantiate an "animal" (i'm pretty cetain Animal in this case is Vertebrate in my case)

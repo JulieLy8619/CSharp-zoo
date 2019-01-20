@@ -9,9 +9,10 @@ namespace lab05_zoo.classes
     {
         public bool Shiney { get; set; }
         //int IPlay.PlayThings { get; set; } = 1000;
-        public override void Move()
+        public override int Move()
         {
             Console.WriteLine("Move in goldfish class");
+            return 2;
         }
         public override int Speak()
         {

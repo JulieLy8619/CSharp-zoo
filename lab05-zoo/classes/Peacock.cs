@@ -13,9 +13,10 @@ namespace lab05_zoo.classes
         //string ISpeak.SpeakThings { get; set; } = "ISpeak SpeakThings in Peacock";
         //int IPlay.PlayThings { get; set; } = 10;
 
-        public override void Move()
+        public override int Move()
         {
             Console.WriteLine("Move in peacock class");
+            return 3;
         }
         public override int Speak()
         {

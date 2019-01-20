@@ -13,9 +13,10 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Move in goldfish class");
         }
-        public override void Speak()
+        public override int Speak()
         {
             Console.WriteLine("Speak in goldfish class");
+            return 50;
         }
 
         public string PottyInterface()

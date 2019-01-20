@@ -13,9 +13,10 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Move in Turtle class");
         }
-        public override void Speak()
+        public override int Speak()
         {
             Console.WriteLine("Speak in Turtle class");
+            return 75;
         }
         public int PlayInterface()
         {

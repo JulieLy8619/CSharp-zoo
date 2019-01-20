@@ -17,9 +17,10 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Move in peacock class");
         }
-        public override void Speak()
+        public override int Speak()
         {
             Console.WriteLine("Speak in peacock class");
+            return 1;
         }
         public override void Sleep()
         {

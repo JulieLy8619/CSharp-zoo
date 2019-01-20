@@ -11,9 +11,10 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Move in salmon class");
         }
-        public override void Speak()
+        public override int Speak()
         {
             Console.WriteLine("Speak in salmon class");
+            return 10;
         }
     }
 }

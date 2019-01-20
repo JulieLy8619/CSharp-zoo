@@ -7,7 +7,7 @@ namespace lab05_zoo.classes
     public abstract class Vertebrates
     {
         public virtual bool HasSpine { get; set; } = true;
-        public abstract void Speak();
+        public abstract int Speak();
         public abstract void Move();
     }
 }

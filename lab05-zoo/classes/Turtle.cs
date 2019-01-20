@@ -17,9 +17,9 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Speak in Turtle class");
         }
-        public int Play()
+        public int PlayInterface()
         {
-            Console.WriteLine("Play from IPlay in Turtle");
+            Console.WriteLine("PlayInterface from IPlay in Turtle");
             return 100;
         }
     }

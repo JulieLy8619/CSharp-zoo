@@ -5,7 +5,7 @@ using lab05_zoo.Interfaces;
 
 namespace lab05_zoo.classes
 {
-    public class Peacock : Bird , IPlay , ISpeak
+    public class Peacock : Bird , IPlay , IPotty
     {
         public override bool HasFeathers { get; set; } = true;
         public override int NumLegs { get; set; } = 2;
@@ -25,15 +25,15 @@ namespace lab05_zoo.classes
         {
             Console.WriteLine("Sleep in peacock class");
         }
-        public int Play()
+        public int PlayInterface()
         {
             Console.WriteLine("Play from IPlay in Peacock");
             return 10;
         }
-        public string SpeakInterface()
+        public string PottyInterface()
         {
-            Console.WriteLine("Speak from ISpeak in Peacock");
-            return "Hello from SpeakInterface ISpeak Peacock";
+            Console.WriteLine("Potty from IPotty in Peacock");
+            return "Hello from PottyInterface IPotty Peacock";
         }
 
     }

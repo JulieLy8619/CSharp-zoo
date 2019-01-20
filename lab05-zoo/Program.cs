@@ -23,12 +23,14 @@ namespace lab05_zoo
             Console.WriteLine("Peacock Sleeps: ");
             Jane.Sleep();
             Console.WriteLine("Peacock interface Play: ");
-            Console.WriteLine(Jane.Play());
-            Console.WriteLine("Peacock interface Speak: ");
-            Console.WriteLine(Jane.SpeakInterface());
+            Console.WriteLine(Jane.PlayInterface());
+            Console.WriteLine("Peacock interface Potty: ");
+            Console.WriteLine(Jane.PottyInterface());
 
             Console.WriteLine("Goldfish Moves: ");
             Bill.Move();
+            Console.WriteLine("Goldfish interface Potty: ");
+            Console.WriteLine(Bill.PottyInterface());
 
             Console.WriteLine("Salmon NumOfBabies");
             Jasper.NumOfBabies = 5;
@@ -38,7 +40,7 @@ namespace lab05_zoo
             Molly.HasShell = true;
             Console.WriteLine(Molly.HasShell);
             Console.WriteLine("Turtle interface Play: ");
-            Console.WriteLine(Molly.Play());
+            Console.WriteLine(Molly.PlayInterface());
 
             Console.WriteLine("Snake HasSpine");
             Kathy.HasSpine = true;

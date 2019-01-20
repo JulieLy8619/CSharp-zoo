@@ -5,7 +5,7 @@ using System.Text;
 
 namespace lab05_zoo.classes
 {
-    public class Goldfish : Fish , IPlay
+    public class Goldfish : Fish , IPotty
     {
         public bool Shiney { get; set; }
         //int IPlay.PlayThings { get; set; } = 1000;
@@ -18,10 +18,10 @@ namespace lab05_zoo.classes
             Console.WriteLine("Speak in goldfish class");
         }
 
-        public int Play()
+        public string PottyInterface()
         {
-            Console.WriteLine("Play from IPlay in Goldfish");
-            return 1000;
+            Console.WriteLine("PottyInterface from IPotty in Goldfish");
+            return "Hello from PottyInterface IPotty Goldfish";
         }
 
     }

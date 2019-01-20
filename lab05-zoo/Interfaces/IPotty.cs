@@ -4,9 +4,8 @@ using System.Text;
 
 namespace lab05_zoo.Interfaces
 {
-    public interface IPlay
+    interface IPotty
     {
-        //int PlayThings { get; set; }
-        int PlayInterface();
+        string PottyInterface();
     }
 }

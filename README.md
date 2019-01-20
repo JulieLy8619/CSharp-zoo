@@ -15,7 +15,7 @@ We were asked to meet the following requirements:
 My classes are based on this diagram
 ![zooChart](./images/zooChart.pdf)
 Diagram with Interfaces
-![zooChartWithInterfaces](./images/zooChartWInterfaces.pdf)
+![zooChartWithInterfaces](./images/zooChartWithInterface2.pdf)
 
 This is what the program would look like
 ![programWorks](./images/lab5proofOfLife.JPG)
@@ -28,6 +28,9 @@ Proof passed tests-lab 5
 
 Proof passed tests-lab 6
 ![passedTests](./images/lab6testsWork.JPG)
+
+Redone tests- lab 5 and 6
+![passedTests](./images/testsRedo.JPG)
 
 
 ## Contribution

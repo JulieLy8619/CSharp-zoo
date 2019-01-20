@@ -7,6 +7,6 @@ namespace lab05_zoo.Interfaces
     public interface IPlay
     {
         //int PlayThings { get; set; }
-        int Play();
+        int PlayInterface();
     }
 }

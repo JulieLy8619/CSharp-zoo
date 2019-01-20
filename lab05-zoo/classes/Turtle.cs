@@ -9,17 +9,19 @@ namespace lab05_zoo.classes
     {
         public bool HasShell { get; set; }
         //int IPlay.PlayThings { get; set; } = 100; //why wouldn't this work and let me test it
-        public override void Move()
+        public override int Move()
         {
             Console.WriteLine("Move in Turtle class");
+            return 6;
         }
-        public override void Speak()
+        public override int Speak()
         {
             Console.WriteLine("Speak in Turtle class");
+            return 75;
         }
-        public int Play()
+        public int PlayInterface()
         {
-            Console.WriteLine("Play from IPlay in Turtle");
+            Console.WriteLine("PlayInterface from IPlay in Turtle");
             return 100;
         }
     }
